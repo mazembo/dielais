@@ -5,7 +5,7 @@ set :server_name, "dielais.com"
 set :application, "dielais.com"
 set :scm, :git
 
-set :repository, "git://github.com/mazembo/depot.git"
+set :repository, "git://github.com/mazembo/dielais.git"
 
 set :deploy_to, "/home/admin/#{application}"
 
