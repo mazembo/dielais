@@ -1,6 +1,6 @@
 set :ip, "74.63.10.91"
 set :user, "root"
-set :server_name, "dielais.com"
+set :server_name, "74.63.10.91"
 
 set :application, "dielais.com"
 set :scm, :git
