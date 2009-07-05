@@ -2,7 +2,7 @@ class ServicesController < ApplicationController
   # GET /services
   # GET /services.xml
   def index
-    @services = Service.find(:all)
+    @items = Service.find(:all)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -13,44 +13,43 @@ class ServicesController < ApplicationController
   # GET /services/1
   # GET /services/1.xml
   def show
-    @services = Service.find(params[:id])
+    @service = Service.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render :xml => @services }
+      format.xml  { render :xml => @service }
     end
   end
 
   # GET /services/new
   # GET /services/new.xml
   def new
-    @services = Service.new
+    @service = Service.new
 
     respond_to do |format|
       format.html # new.html.erb
-      format.xml  { render :xml => @services }
+      format.xml  { render :xml => @service }
     end
   end
 
   # GET /services/1/edit
   def edit
-    @services = Service.find(params[:id])
+    @service = Service.find(params[:id])
   end
 
   # POST /services
   # POST /services.xml
-  
   def create
-    @services = Service.new(params[:services])
+    @service = Service.new(params[:service])
 
     respond_to do |format|
-      if @services.save
-        flash[:notice] = 'Services was successfully created.'
-        format.html { redirect_to(@services) }
-        format.xml  { render :xml => @services, :status => :created, :location => @services }
+      if @service.save
+        flash[:notice] = 'Service was successfully created.'
+        format.html { redirect_to(@service) }
+        format.xml  { render :xml => @service, :status => :created, :location => @service }
       else
         format.html { render :action => "new" }
-        format.xml  { render :xml => @services.errors, :status => :unprocessable_entity }
+        format.xml  { render :xml => @service.errors, :status => :unprocessable_entity }
       end
     end
   end
@@ -58,16 +57,16 @@ class ServicesController < ApplicationController
   # PUT /services/1
   # PUT /services/1.xml
   def update
-    @services = Service.find(params[:id])
+    @service = Service.find(params[:id])
 
     respond_to do |format|
-      if @services.update_attributes(params[:services])
-        flash[:notice] = 'Services was successfully updated.'
-        format.html { redirect_to(@services) }
+      if @service.update_attributes(params[:service])
+        flash[:notice] = 'Service was successfully updated.'
+        format.html { redirect_to(@service) }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
-        format.xml  { render :xml => @services.errors, :status => :unprocessable_entity }
+        format.xml  { render :xml => @service.errors, :status => :unprocessable_entity }
       end
     end
   end
@@ -75,8 +74,8 @@ class ServicesController < ApplicationController
   # DELETE /services/1
   # DELETE /services/1.xml
   def destroy
-    @services = Service.find(params[:id])
-    @services.destroy
+    @service = Service.find(params[:id])
+    @service.destroy
 
     respond_to do |format|
       format.html { redirect_to(services_url) }

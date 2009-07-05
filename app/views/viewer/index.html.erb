@@ -1,0 +1,8 @@
+<% @page_title = " Services "%>
+
+<h1> <%=@page_title %></h1>
+
+<% for service in @services %>
+<h1><%=h service.name %></h1>
+<p><%=h service.description %></p>
+<% end %>

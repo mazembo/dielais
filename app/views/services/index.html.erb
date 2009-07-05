@@ -7,18 +7,18 @@
     <th>Picture</th>
   </tr>
 
-<% for services in @services %>
+<% for item in @items %>
   <tr>
-    <td><%=h services.name %></td>
-    <td><%=h services.description %></td>
-    <td><%=h services.picture %></td>
-    <td><%= link_to 'Show', services %></td>
-    <td><%= link_to 'Edit', edit_services_path(services) %></td>
-    <td><%= link_to 'Destroy', services, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%=h item.name %></td>
+    <td><%=h item.description %></td>
+    <td><%=h item.picture %></td>
+    <td><%= link_to 'Show', item %></td>
+    <td><%= link_to 'Edit', edit_service_path(item) %></td>
+    <td><%= link_to 'Destroy', item, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New services', new_services_path %>
+<%= link_to 'New service', new_service_path %>

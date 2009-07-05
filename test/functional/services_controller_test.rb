@@ -12,15 +12,15 @@ class ServicesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  def test_should_create_services
-    assert_difference('Services.count') do
-      post :create, :services => { }
+  def test_should_create_service
+    assert_difference('Service.count') do
+      post :create, :service => { }
     end
 
-    assert_redirected_to services_path(assigns(:services))
+    assert_redirected_to service_path(assigns(:service))
   end
 
-  def test_should_show_services
+  def test_should_show_service
     get :show, :id => services(:one).id
     assert_response :success
   end
@@ -30,13 +30,13 @@ class ServicesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  def test_should_update_services
-    put :update, :id => services(:one).id, :services => { }
-    assert_redirected_to services_path(assigns(:services))
+  def test_should_update_service
+    put :update, :id => services(:one).id, :service => { }
+    assert_redirected_to service_path(assigns(:service))
   end
 
-  def test_should_destroy_services
-    assert_difference('Services.count', -1) do
+  def test_should_destroy_service
+    assert_difference('Service.count', -1) do
       delete :destroy, :id => services(:one).id
     end
 

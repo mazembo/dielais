@@ -1,18 +1,18 @@
 <p>
   <b>Name:</b>
-  <%=h @services.name %>
+  <%=h @service.name %>
 </p>
 
 <p>
   <b>Description:</b>
-  <%=h @services.description %>
+  <%=h @service.description %>
 </p>
 
 <p>
   <b>Picture:</b>
-  <%=h @services.picture %>
+  <%=h @service.picture %>
 </p>
 
 
-<%= link_to 'Edit', edit_services_path(@services) %> |
+<%= link_to 'Edit', edit_service_path(@service) %> |
 <%= link_to 'Back', services_path %>
