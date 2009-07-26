@@ -16,10 +16,8 @@
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 development:
   adapter: mysql
-  encoding: utf8
-  database: depot_development
-  pool: 5
-  username: root
+  database: dielais
+  username: dielais.com
   password: nditukulu
   host: localhost
 
@@ -29,7 +27,7 @@ development:
 test:
   adapter: mysql
   encoding: utf8
-  database: depot_test
+  database: depot_development
   pool: 5
   username: root
   password: nditukulu
