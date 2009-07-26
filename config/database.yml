@@ -32,7 +32,7 @@ test:
   database: depot_test
   pool: 5
   username: root
-  password:
+  password: nditukulu
   host: localhost
 
 production:
