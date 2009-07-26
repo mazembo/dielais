@@ -38,6 +38,6 @@ test:
 production:
   adapter: mysql
   database: dielais
-  username: dielais
+  username: dielais.com
   password: nditukulu
   host: localhost
