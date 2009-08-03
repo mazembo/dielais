@@ -10932,3 +10932,1216 @@ ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=
     script/server:3
 
 Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-07-27 18:37:56) [GET]
+  Session ID: b0bbe53db122b462126e5db8117b84e9
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.300000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mService Load (0.361000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.080000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 0.82100 (1 reqs/sec) | Rendering: 0.26000 (31%) | DB: 0.74100 (90%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 18:38:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--52d4b4e4454b0ead7a1217de7b09b9528261e0b0
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ServicesController#new (for 127.0.0.1 at 2009-07-27 18:42:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--52d4b4e4454b0ead7a1217de7b09b9528261e0b0
+  Parameters: {"action"=>"new", "controller"=>"services"}
+  [4;35;1mService Columns (0.040000)[0m   [0mSHOW FIELDS FROM `services`[0m
+Rendering template within layouts/application
+Rendering services/new
+Completed in 0.57000 (1 reqs/sec) | Rendering: 0.37000 (64%) | DB: 0.04000 (7%) | 200 OK [http://localhost/services/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 18:42:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ServicesController#new (for 127.0.0.1 at 2009-07-27 18:51:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {"action"=>"new", "controller"=>"services"}
+  [4;36;1mService Columns (0.060000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Rendering template within layouts/application
+Rendering services/new
+Completed in 4.05600 (0 reqs/sec) | Rendering: 3.89600 (96%) | DB: 0.06000 (1%) | 200 OK [http://localhost/services/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 18:52:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-07-27 18:52:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.020000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.030000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 0.19000 (5 reqs/sec) | Rendering: 0.09000 (47%) | DB: 0.05000 (26%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 18:52:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-07-27 18:58:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.000000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+ERROR: compiling _run_erb_47app47views47layouts47application46html46erb RAISED compile error
+C:/rails/dielais/app/views/layouts/application.html.erb:29: unknown regexp option - l
+C:/rails/dielais/app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+			<li><a href="index.html"><span>About</span></a></li>
+			 ^
+C:/rails/dielais/app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+			<li><a href="index.html"><span>About</span></a></li>
+			                          ^
+C:/rails/dielais/app/views/layouts/application.html.erb:30: unknown regexp option - a
+C:/rails/dielais/app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+			<li><a href="index.html"><span>About</span></a></li>
+			                                                ^
+C:/rails/dielais/app/views/layouts/application.html.erb:31: unknown regexp options - pa
+C:/rails/dielais/app/views/layouts/application.html.erb:31: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Services</span></a></li>
+			                                               ^
+C:/rails/dielais/app/views/layouts/application.html.erb:31: unknown regexp option - l
+C:/rails/dielais/app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Contact us</span></a></li>
+			 ^
+C:/rails/dielais/app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Contact us</span></a></li>
+			                          ^
+C:/rails/dielais/app/views/layouts/application.html.erb:32: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+			<li><a href="index.html"><span>Contact us</span></a></li>
+			                                         ^
+C:/rails/dielais/app/views/layouts/application.html.erb:32: unknown regexp option - a
+C:/rails/dielais/app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Contact us</span></a></li>
+			                                                     ^
+C:/rails/dielais/app/views/layouts/application.html.erb:33: unknown regexp options - pa
+C:/rails/dielais/app/views/layouts/application.html.erb:33: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Support</span></a></li>
+			                                              ^
+C:/rails/dielais/app/views/layouts/application.html.erb:33: unknown regexp option - l
+C:/rails/dielais/app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Login</span></a></li>			
+			 ^
+C:/rails/dielais/app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Login</span></a></li>			
+			                          ^
+C:/rails/dielais/app/views/layouts/application.html.erb:34: unknown regexp option - a
+C:/rails/dielais/app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Login</span></a></li>			
+			                                                ^
+C:/rails/dielais/app/views/layouts/application.html.erb:35: unknown regexp option - l
+C:/rails/dielais/app/views/layouts/application.html.erb:37: syntax error, unexpected '<'
+	</div>	
+	 ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: unknown regexp options - ag
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tSTRING_BEG, expecting ')'
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                  ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tINTEGER, expecting ')'
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                             ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tINTEGER, expecting ')'
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                                          ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                                                            ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                                                                       ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                                                                               ^
+C:/rails/dielais/app/views/layouts/application.html.erb:44: syntax error, unexpected tIDENTIFIER, expecting ')'
+		<div id="sidebar" >							
+		                ^
+C:/rails/dielais/app/views/layouts/application.html.erb:47: syntax error, unexpected tIDENTIFIER, expecting ')'
+			<ul class="sidemenu">
+			                   ^
+C:/rails/dielais/app/views/layouts/application.html.erb:48: syntax error, unexpected tIDENTIFIER, expecting ')'
+				<li><%= link_to 'Home', {:controller => "viewer", :action => "index" } ).to_s); _erbout.concat "</li>\n"
+				                                               ^
+C:/rails/dielais/app/views/layouts/application.html.erb:48: syntax error, unexpected tIDENTIFIER, expecting ')'
+				<li><%= link_to 'Home', {:controller => "viewer", :action => "index" } ).to_s); _erbout.concat "</li>\n"
+				                                                                   ^
+C:/rails/dielais/app/views/layouts/application.html.erb:49: unknown regexp option - a
+C:/rails/dielais/app/views/layouts/application.html.erb:49: syntax error, unexpected '<'
+_erbout.concat "\t\t\t\t<li><a href=\"#TemplateInfo\">Template Info</a></li>\n"
+                                                                        ^
+C:/rails/dielais/app/views/layouts/application.html.erb:50: unknown regexp option - a
+C:/rails/dielais/app/views/layouts/application.html.erb:50: syntax error, unexpected '<'
+_erbout.concat "\t\t\t\t<li><a href=\"#SampleTags\">Sample Tags</a></li>\n"
+                                                                    ^
+C:/rails/dielais/app/views/layouts/application.html.erb:51: syntax error, unexpected $undefined
+_erbout.concat "\t\t\t\t<li><a href=\"http://www.styleshout.com/\">More Free Templates</a></li>\n"
+                                                                 ^
+C:/rails/dielais/app/views/layouts/application.html.erb:109: syntax error, unexpected kEND, expecting ')'
+Function body: def _run_erb_47app47views47layouts47application46html46erb(local_assigns)
+_erbout = ''; _erbout.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n"
+_erbout.concat "       \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n"
+_erbout.concat "\n"
+_erbout.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n"
+_erbout.concat "<head>\n"
+_erbout.concat "  <meta http-equiv=\"content-type\" content=\"text/html;charset=UTF-8\" />\n"
+_erbout.concat "  <title> Diela Information Systems </title>\n"
+_erbout.concat "  \n"
+_erbout.concat "  "; _erbout.concat(( stylesheet_link_tag 'BrightSide' ).to_s); _erbout.concat "\n"
+_erbout.concat "  \n"
+_erbout.concat "</head>\n"
+_erbout.concat "<body>\n"
+_erbout.concat "<!-- wrap starts here -->\n"
+_erbout.concat "<div id=\"wrap\">\n"
+_erbout.concat "\t\n"
+_erbout.concat "\t<div id=\"header\">\t\t\t\t\n"
+_erbout.concat "\t\t\t\n"
+_erbout.concat "\t\t<h1 id=\"logo\">DIELA<span class=\"green\"> Information</span><span class=\"gray\"> Systems</span></h1>\t\n"
+_erbout.concat "\t\t<h2 id=\"slogan\">We will build your web application... </h2> </BR>\n"
+_erbout.concat "\t\t\n"
+_erbout.concat "\t\t\n"
+_erbout.concat "\t\t<form method=\"post\" class=\"searchform\" action=\"#\">\n"
+_erbout.concat "\t\t\t<p><input type=\"text\" name=\"search_query\" class=\"textbox\" />\n"
+_erbout.concat "  \t\t\t<input type=\"submit\" name=\"search\" class=\"button\" value=\"Search\" /></p>\n"
+_erbout.concat "  \t\t</form>\n"
+_erbout.concat "\t\t\t\n"
+_erbout.concat "\t\t<!-- Menu Tabs -->\n"
+_erbout.concat "\t\t<ul>\n"
+_erbout.concat "\t\t\t<li id=\"current\"><span>"; _erbout.concat(( link_to 'home', {:controller => "viewer", :action => "index" }</span></li>
+			<li><a href="index.html"><span>About</span></a></li>
+			<li><a href="index.html"><span>Services</span></a></li>
+			<li><a href="index.html"><span>Contact us</span></a></li>
+			<li><a href="index.html"><span>Support</span></a></li>
+			<li><a href="index.html"><span>Login</span></a></li>			
+		</ul>	
+													
+	</div>	
+				
+	<!-- content-wrap starts here -->
+	<div id="content-wrap">		
+											
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+		
+		<div id="sidebar" >							
+				
+			
+			<ul class="sidemenu">
+				<li><%= link_to 'Home', {:controller => "viewer", :action => "index" } ).to_s); _erbout.concat "</li>\n"
+_erbout.concat "\t\t\t\t<li><a href=\"#TemplateInfo\">Template Info</a></li>\n"
+_erbout.concat "\t\t\t\t<li><a href=\"#SampleTags\">Sample Tags</a></li>\n"
+_erbout.concat "\t\t\t\t<li><a href=\"http://www.styleshout.com/\">More Free Templates</a></li>\n"
+_erbout.concat "\t\t\t\t<li><a href=\"http://www.4templates.com/?aff=ealigam\">Premium Templates</a></li>\t\t\t\t\t\n"
+_erbout.concat "\t\t\t</ul>\t\t\n"
+_erbout.concat "\t\t\t\t\n"
+_erbout.concat "\t\t\t<h1> Partners</h1>\n"
+_erbout.concat "\t\t\t<ul class=\"sidemenu\">\n"
+_erbout.concat "\t\t\t\t<li>"; _erbout.concat(( link_to '37Signals', {} ).to_s); _erbout.concat "</li>\n"
+_erbout.concat "\t\t\t\t<li>"; _erbout.concat(( link_to 'Miro Distribution', {} ).to_s); _erbout.concat "</li>\n"
+_erbout.concat "\t\t\t\t<li>"; _erbout.concat(( link_to 'Africa Digital', {} ).to_s); _erbout.concat "</li>\n"
+_erbout.concat "\t\t\t\t<li>"; _erbout.concat(( link_to 'JSCE Wits University', {}).to_s); _erbout.concat "</li>\n"
+_erbout.concat "\t\t\t\t<li>"; _erbout.concat(( link_to 'Psybergate', {} ).to_s); _erbout.concat "</li>\n"
+_erbout.concat "\t\t\t\t\t\n"
+_erbout.concat "\t\t\t</ul>\t\t\n"
+_erbout.concat "\t\t\t\n"
+_erbout.concat "\t\t\t\n"
+_erbout.concat "\t\t\t<p>&quot;Men are disturbed, not by the things that happen,\n"
+_erbout.concat "\t\t\tbut by their opinion of the things that happen.&quot;</p>\t\t\n"
+_erbout.concat "\t\t\t\t\n"
+_erbout.concat "\t\t\t<p class=\"align-right\">- Epictetus</p>\t\t\t\t\t\n"
+_erbout.concat "\t\t\n"
+_erbout.concat "\t\t</div>\n"
+_erbout.concat "\t\t\t\n"
+_erbout.concat "\t\t<div id=\"main\">\t\n"
+_erbout.concat "\t\t\t\t<p> Contact us on 27-788120189 or on infos@dielais.com </p>\n"
+_erbout.concat "\t\t\t\n"
+_erbout.concat "\t\t"; _erbout.concat(( yield ).to_s); _erbout.concat "\n"
+_erbout.concat "\t\t\t\t\t\t\t\t\t\t\n"
+_erbout.concat "\t\t\t\n"
+_erbout.concat "\t\t\t\n"
+_erbout.concat "\t<!-- content-wrap ends here -->\t\t\n"
+_erbout.concat "\t</div>\n"
+_erbout.concat "\n"
+_erbout.concat "<!-- footer starts here -->\t\n"
+_erbout.concat "<div id=\"footer\">\n"
+_erbout.concat "\t\n"
+_erbout.concat "\t<div class=\"footer-left\">\n"
+_erbout.concat "\t\t<p class=\"align-left\">\t\t\t\n"
+_erbout.concat "\t\t&copy; 2008 <strong>Diela Information Systems</strong> |\n"
+_erbout.concat "\t\tDesign by <a href=\"http://www.dielais.com/\">DielaIS</a> \n"
+_erbout.concat "\t\t</p>\t\t\n"
+_erbout.concat "\t</div>\n"
+_erbout.concat "\t\n"
+_erbout.concat "\t<div class=\"footer-right\">\n"
+_erbout.concat "\t\t<p class=\"align-right\">\n"
+_erbout.concat "\t\t"; _erbout.concat(( link_to "home", {:controller => "viewer", :action => "index"}).to_s); _erbout.concat "\n"
+_erbout.concat "  \t\t</p>\n"
+_erbout.concat "\t</div>\n"
+_erbout.concat "\t\n"
+_erbout.concat "</div>\n"
+_erbout.concat "<!-- footer ends here -->\n"
+_erbout.concat "\t\n"
+_erbout.concat "<!-- wrap ends here -->\n"
+_erbout.concat "</div>\n"
+_erbout.concat "\n"
+_erbout.concat "</body>\n"
+_erbout.concat "\n"
+_erbout.concat "</html>\n"
+_erbout
+end
+Backtrace: C:/rails/dielais/app/views/layouts/application.html.erb:109:in `compile_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_view/base.rb:648:in `compile_and_render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_view/base.rb:369:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_view/base.rb:318:in `render_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/layout.rb:267:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:1154:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:1160:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:699:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:691:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/caching.rb:678:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.5/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.5/lib/active_record/query_cache.rb:8:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/caching.rb:677:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:524:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:524:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:687:in `process_without_session_management_support'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/session_management.rb:123:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:388:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:171:in `handle_request'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+
+ActionView::TemplateError (compile error
+C:/rails/dielais/app/views/layouts/application.html.erb:29: unknown regexp option - l
+C:/rails/dielais/app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+			<li><a href="index.html"><span>About</span></a></li>
+			 ^
+C:/rails/dielais/app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+			<li><a href="index.html"><span>About</span></a></li>
+			                          ^
+C:/rails/dielais/app/views/layouts/application.html.erb:30: unknown regexp option - a
+C:/rails/dielais/app/views/layouts/application.html.erb:30: syntax error, unexpected '<'
+			<li><a href="index.html"><span>About</span></a></li>
+			                                                ^
+C:/rails/dielais/app/views/layouts/application.html.erb:31: unknown regexp options - pa
+C:/rails/dielais/app/views/layouts/application.html.erb:31: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Services</span></a></li>
+			                                               ^
+C:/rails/dielais/app/views/layouts/application.html.erb:31: unknown regexp option - l
+C:/rails/dielais/app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Contact us</span></a></li>
+			 ^
+C:/rails/dielais/app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Contact us</span></a></li>
+			                          ^
+C:/rails/dielais/app/views/layouts/application.html.erb:32: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+			<li><a href="index.html"><span>Contact us</span></a></li>
+			                                         ^
+C:/rails/dielais/app/views/layouts/application.html.erb:32: unknown regexp option - a
+C:/rails/dielais/app/views/layouts/application.html.erb:32: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Contact us</span></a></li>
+			                                                     ^
+C:/rails/dielais/app/views/layouts/application.html.erb:33: unknown regexp options - pa
+C:/rails/dielais/app/views/layouts/application.html.erb:33: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Support</span></a></li>
+			                                              ^
+C:/rails/dielais/app/views/layouts/application.html.erb:33: unknown regexp option - l
+C:/rails/dielais/app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Login</span></a></li>			
+			 ^
+C:/rails/dielais/app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Login</span></a></li>			
+			                          ^
+C:/rails/dielais/app/views/layouts/application.html.erb:34: unknown regexp option - a
+C:/rails/dielais/app/views/layouts/application.html.erb:34: syntax error, unexpected '<'
+			<li><a href="index.html"><span>Login</span></a></li>			
+			                                                ^
+C:/rails/dielais/app/views/layouts/application.html.erb:35: unknown regexp option - l
+C:/rails/dielais/app/views/layouts/application.html.erb:37: syntax error, unexpected '<'
+	</div>	
+	 ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: unknown regexp options - ag
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tSTRING_BEG, expecting ')'
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                  ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tINTEGER, expecting ')'
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                             ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tINTEGER, expecting ')'
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                                          ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                                                            ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tIDENTIFIER, expecting ')'
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                                                                       ^
+C:/rails/dielais/app/views/layouts/application.html.erb:42: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	                                                                                               ^
+C:/rails/dielais/app/views/layouts/application.html.erb:44: syntax error, unexpected tIDENTIFIER, expecting ')'
+		<div id="sidebar" >							
+		                ^
+C:/rails/dielais/app/views/layouts/application.html.erb:47: syntax error, unexpected tIDENTIFIER, expecting ')'
+			<ul class="sidemenu">
+			                   ^
+C:/rails/dielais/app/views/layouts/application.html.erb:48: syntax error, unexpected tIDENTIFIER, expecting ')'
+				<li><%= link_to 'Home', {:controller => "viewer", :action => "index" } ).to_s); _erbout.concat "</li>\n"
+				                                               ^
+C:/rails/dielais/app/views/layouts/application.html.erb:48: syntax error, unexpected tIDENTIFIER, expecting ')'
+				<li><%= link_to 'Home', {:controller => "viewer", :action => "index" } ).to_s); _erbout.concat "</li>\n"
+				                                                                   ^
+C:/rails/dielais/app/views/layouts/application.html.erb:49: unknown regexp option - a
+C:/rails/dielais/app/views/layouts/application.html.erb:49: syntax error, unexpected '<'
+_erbout.concat "\t\t\t\t<li><a href=\"#TemplateInfo\">Template Info</a></li>\n"
+                                                                        ^
+C:/rails/dielais/app/views/layouts/application.html.erb:50: unknown regexp option - a
+C:/rails/dielais/app/views/layouts/application.html.erb:50: syntax error, unexpected '<'
+_erbout.concat "\t\t\t\t<li><a href=\"#SampleTags\">Sample Tags</a></li>\n"
+                                                                    ^
+C:/rails/dielais/app/views/layouts/application.html.erb:51: syntax error, unexpected $undefined
+_erbout.concat "\t\t\t\t<li><a href=\"http://www.styleshout.com/\">More Free Templates</a></li>\n"
+                                                                 ^
+C:/rails/dielais/app/views/layouts/application.html.erb:109: syntax error, unexpected kEND, expecting ')') on line #29 of layouts/application.html.erb:
+26: 			
+27: 		<!-- Menu Tabs -->
+28: 		<ul>
+29: 			<li id="current"><span><%= link_to 'home', {:controller => "viewer", :action => "index" }</span></li>
+30: 			<li><a href="index.html"><span>About</span></a></li>
+31: 			<li><a href="index.html"><span>Services</span></a></li>
+32: 			<li><a href="index.html"><span>Contact us</span></a></li>
+
+    app/views/layouts/application.html.erb:109:in `compile_template'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_view/base.rb:648:in `compile_and_render_template'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_view/base.rb:369:in `render_template'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_view/base.rb:318:in `render_file'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/layout.rb:267:in `render_without_benchmark'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/benchmarking.rb:51:in `render'
+    c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/benchmarking.rb:51:in `render'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:1154:in `default_render'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:1160:in `perform_action_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:699:in `call_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:691:in `perform_action_without_benchmark'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/caching.rb:678:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.5/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.5/lib/active_record/query_cache.rb:8:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/caching.rb:677:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:524:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:524:in `process_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:687:in `process_without_session_management_support'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/session_management.rb:123:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:388:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-07-27 19:05:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.020000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 0.70100 (1 reqs/sec) | Rendering: 0.50100 (71%) | DB: 0.04000 (5%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 19:05:27) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-07-27 19:05:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.010000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.030000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 0.18000 (5 reqs/sec) | Rendering: 0.08000 (44%) | DB: 0.04000 (22%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 19:05:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-07-27 19:09:41) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.000000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 0.23000 (4 reqs/sec) | Rendering: 0.12000 (52%) | DB: 0.01000 (4%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 19:09:43) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-07-27 19:09:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.000000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 0.45100 (2 reqs/sec) | Rendering: 0.38000 (84%) | DB: 0.01000 (2%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-27 19:09:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzk5NTFiZDhiMGM4ZDdmMGIzOWM5MDAxZjQ4MmNm%0ANTMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--90122193a87b8845c0e4ccd12c005633af15f78a
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-08-03 17:55:26) [GET]
+  Session ID: 6fd642d766d689140e2907506e22dfeb
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.350000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mService Load (0.521000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.180000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 1.20200 (0 reqs/sec) | Rendering: 0.32100 (26%) | DB: 1.05100 (87%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 17:55:31) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--52d4b4e4454b0ead7a1217de7b09b9528261e0b0
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-08-03 17:56:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--52d4b4e4454b0ead7a1217de7b09b9528261e0b0
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.000000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 0.22000 (4 reqs/sec) | Rendering: 0.15000 (68%) | DB: 0.01000 (4%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 17:56:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--52d4b4e4454b0ead7a1217de7b09b9528261e0b0
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-08-03 17:58:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--52d4b4e4454b0ead7a1217de7b09b9528261e0b0
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.010000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 0.23100 (4 reqs/sec) | Rendering: 0.15100 (65%) | DB: 0.02000 (8%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 17:58:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--52d4b4e4454b0ead7a1217de7b09b9528261e0b0
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-08-03 17:59:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--52d4b4e4454b0ead7a1217de7b09b9528261e0b0
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.000000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 0.21000 (4 reqs/sec) | Rendering: 0.13000 (61%) | DB: 0.01000 (4%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 17:59:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--52d4b4e4454b0ead7a1217de7b09b9528261e0b0
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-08-03 18:00:39) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--52d4b4e4454b0ead7a1217de7b09b9528261e0b0
+  Parameters: {"search"=>"Search", "action"=>"index", "search_query"=>"jjkkll", "controller"=>"viewer"}
+
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/request_forgery_protection.rb:86:in `verify_authenticity_token'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:469:in `send!'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:469:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:441:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:718:in `run_before_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:697:in `call_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:691:in `perform_action_without_benchmark'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/caching.rb:678:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.5/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.5/lib/active_record/query_cache.rb:8:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/caching.rb:677:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:524:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:524:in `process_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/filters.rb:687:in `process_without_session_management_support'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/session_management.rb:123:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/base.rb:388:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (unprocessable_entity)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-08-03 18:03:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzBjODQwMzYwMjA0ZTk5NzI2YTc2MDdiOTlmNGVl%0ANWMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--e2a6a0b0d2405b8b53687f505f395864c00d8830
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.010000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.030000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 1.11200 (0 reqs/sec) | Rendering: 0.88200 (79%) | DB: 0.04000 (3%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 18:03:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzBjODQwMzYwMjA0ZTk5NzI2YTc2MDdiOTlmNGVl%0ANWMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--e2a6a0b0d2405b8b53687f505f395864c00d8830
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-08-03 18:03:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzBjODQwMzYwMjA0ZTk5NzI2YTc2MDdiOTlmNGVl%0ANWMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--e2a6a0b0d2405b8b53687f505f395864c00d8830
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.011000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.010000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 0.21100 (4 reqs/sec) | Rendering: 0.13000 (61%) | DB: 0.02100 (9%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 18:03:37) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzBjODQwMzYwMjA0ZTk5NzI2YTc2MDdiOTlmNGVl%0ANWMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--e2a6a0b0d2405b8b53687f505f395864c00d8830
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2009-08-03 18:04:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzBjODQwMzYwMjA0ZTk5NzI2YTc2MDdiOTlmNGVl%0ANWMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--e2a6a0b0d2405b8b53687f505f395864c00d8830
+  Parameters: {"action"=>"index", "controller"=>"viewer"}
+  [4;35;1mService Load (0.021000)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+  [4;36;1mService Columns (0.030000)[0m   [0;1mSHOW FIELDS FROM `services`[0m
+Completed in 1.30200 (0 reqs/sec) | Rendering: 1.06100 (81%) | DB: 0.05100 (3%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 18:04:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzBjODQwMzYwMjA0ZTk5NzI2YTc2MDdiOTlmNGVl%0ANWMiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--e2a6a0b0d2405b8b53687f505f395864c00d8830
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1441:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/routing.rb:1424:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.5/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.5/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.5/lib/action_controller/templates/rescues/layout.erb (not_found)
