@@ -16,7 +16,7 @@
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 development:
  adapter: mysql
- database: depot_development
+ database: dielais
  username: root
  password: nditukulu
  host: localhost
