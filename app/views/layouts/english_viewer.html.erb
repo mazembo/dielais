@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title> Diela Information Systems </title>
+  
+  <%= stylesheet_link_tag 'BrightSide' %>
+  
+</head>
+<body>
+<!-- wrap starts here -->
+<div id="wrap">
+	
+	<div id="header">				
+			
+		<h1 id="logo">DIELA<span class="green"> Information</span><span class="gray"> Systems</span></h1>	
+		<h2 id="slogan">We will build your web application... </h2> </BR>
+		
+		
+		
+			
+		<!-- Menu Tabs -->
+		<ul>
+			
+		</ul>	
+													
+	</div>	
+				
+	<!-- content-wrap starts here -->
+	<div id="content-wrap">		
+											
+	<img src="/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
+	<div id='navbar'>
+				<ul>
+                            <li><%= link_to 'Home',{:controller => 'english_viewer', :action => 'index'} %></li>
+			    <li><%= link_to 'About us',{:controller => 'english_viewer', :action => 'about'} %></li>
+			    <li><%= link_to 'Services ',{:controller => 'english_viewer', :action => 'services'}  %></li>
+			    <li><%= link_to 'Contact', {:controller => 'english_viewer', :action => 'contact'} %></li>
+			    <li><%= link_to 'Blog', {:controller => 'english_viewer', :action => 'blog'} %></li>
+                            <li><%= link_to 'French', {:controller => 'french_viewer', :action => 'index'} %></li>
+                                </ul>
+		  </div>
+
+        <div id="sidebar" >
+				
+			
+			
+			<p>&quot;Men are disturbed, not by the things that happen,
+			but by their opinion of the things that happen.&quot;</p>		
+				
+			<p class="align-right">- Epictetus</p>					
+		
+		</div>
+			
+		<div id="main">	
+				<h1> Contact us on 27-788120189; (27) 118696428; dielainfos@gmail.com </h1>
+			
+		<%= yield %>
+										
+			
+			
+	<!-- content-wrap ends here -->		
+	</div>
+
+<!-- footer starts here -->	
+<div id="footer">
+	
+	<div class="footer-left">
+		<p class="align-left">			
+		&copy; 2008 <strong>Diela Information Systems</strong> |
+		Design by <a href="http://www.dielais.com/">DielaIS</a> 
+		</p>		
+	</div>
+	
+	<div class="footer-right">
+		<p class="align-right">
+		<%= link_to "home", {:controller => "viewer", :action => "index"}%>
+  		</p>
+	</div>
+	
+</div>
+<!-- footer ends here -->
+	
+<!-- wrap ends here -->
+</div>
+</div>
+</body>
+
+</html>

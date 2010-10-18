@@ -12740,3 +12740,2410 @@ ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=
   c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+/!\ FAILSAFE /!\  Sat Sep 25 18:03:17 +0200 2010
+  Status: 500 Internal Server Error
+  Unknown database 'dielais'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    c:/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (500.0ms)[0m   [0;1mCREATE TABLE `line_items` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `product_id` int(11), `quantity` int(11), `unit_price` float, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (125.0ms)[0m   [0;1mCREATE TABLE `products` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `description` text, `image_url` varchar(255), `price` float, `created_at` datetime, `updated_at` datetime, `Date_available` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (141.0ms)[0m   [0;1mCREATE TABLE `services` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `description` text, `picture` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (218.0ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (688.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM `schema_migrations`[0m
+  [4;36;1mSQL (62.0ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('4')[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('1')[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('2')[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('3')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2010-09-25 18:09:50) [GET]
+  [4;35;1mService Load (0.0ms)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-25 18:09:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (172.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2010-09-25 19:36:11) [GET]
+  [4;36;1mService Load (906.0ms)[0m   [0;1mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+Completed in 22672ms (View: 7422, DB: 1078) | 200 OK [http://localhost/]
+  [4;36;1mSQL (47.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ViewerController#index (for 127.0.0.1 at 2010-10-08 18:43:25) [GET]
+  [4;35;1mService Load (47.0ms)[0m   [0mSELECT * FROM `services` [0m
+Rendering template within layouts/application
+Rendering viewer/index
+Completed in 140ms (View: 78, DB: 94) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-08 18:43:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (63.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-08 19:55:07) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+ERROR: compiling _run_erb_app47views47layouts47english_viewer46html46erb RAISED compile error
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:38: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                            ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:39: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                              ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:40: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                           ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:41: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                     ^
+Function body:           def _run_erb_app47views47layouts47english_viewer46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n"
+@output_buffer.concat "       \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n"
+@output_buffer.concat "<head>\n"
+@output_buffer.concat "  <meta http-equiv=\"content-type\" content=\"text/html;charset=UTF-8\" />\n"
+@output_buffer.concat "  <title> Diela Information Systems </title>\n"
+@output_buffer.concat "  \n"
+@output_buffer.concat "  "; @output_buffer.concat(( stylesheet_link_tag 'BrightSide' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  \n"
+@output_buffer.concat "</head>\n"
+@output_buffer.concat "<body>\n"
+@output_buffer.concat "<!-- wrap starts here -->\n"
+@output_buffer.concat "<div id=\"wrap\">\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div id=\"header\">\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<h1 id=\"logo\">DIELA<span class=\"green\"> Information</span><span class=\"gray\"> Systems</span></h1>\t\n"
+@output_buffer.concat "\t\t<h2 id=\"slogan\">We will build your web application... </h2> </BR>\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<!-- Menu Tabs -->\n"
+@output_buffer.concat "\t\t<ul>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t</ul>\t\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t</div>\t\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t<!-- content-wrap starts here -->\n"
+@output_buffer.concat "\t<div id=\"content-wrap\">\t\t\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t<img src=\"/images/headerphoto.jpg\" width=\"820\" height=\"120\" alt=\"headerphoto\" class=\"no-border\" />\n"
+@output_buffer.concat "\t<div id='navbar'>\n"
+@output_buffer.concat "\t\t\t\t<ul>\n"
+@output_buffer.concat "                            <li>"; @output_buffer.concat(( link_to 'Home',{:controller => 'english_viewer', :action => 'index'} ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "                                </ul>\n"
+@output_buffer.concat "\t\t  <div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "        <div id=\"sidebar\" >\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t<p>&quot;Men are disturbed, not by the things that happen,\n"
+@output_buffer.concat "\t\t\tbut by their opinion of the things that happen.&quot;</p>\t\t\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t\t\t<p class=\"align-right\">- Epictetus</p>\t\t\t\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t</div>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<div id=\"main\">\t\n"
+@output_buffer.concat "\t\t\t\t<h1> Contact us on 27-788120189; (27) 118696428; dielainfos@gmail.com </h1>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t"; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t<!-- content-wrap ends here -->\t\t\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<!-- footer starts here -->\t\n"
+@output_buffer.concat "<div id=\"footer\">\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div class=\"footer-left\">\n"
+@output_buffer.concat "\t\t<p class=\"align-left\">\t\t\t\n"
+@output_buffer.concat "\t\t&copy; 2008 <strong>Diela Information Systems</strong> |\n"
+@output_buffer.concat "\t\tDesign by <a href=\"http://www.dielais.com/\">DielaIS</a> \n"
+@output_buffer.concat "\t\t</p>\t\t\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div class=\"footer-right\">\n"
+@output_buffer.concat "\t\t<p class=\"align-right\">\n"
+@output_buffer.concat "\t\t"; @output_buffer.concat(( link_to "home", {:controller => "viewer", :action => "index"}).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  \t\t</p>\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "<!-- footer ends here -->\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "<!-- wrap ends here -->\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</body>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/rails/dielais/app/views/layouts/english_viewer.html.erb:94:in `compile!'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:347:in `_render_with_layout'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:38: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                            ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:39: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                              ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:40: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                           ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:41: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                     ^) on line #38 of app/views/layouts/english_viewer.html.erb:
+35: 	<div id='navbar'>
+36: 				<ul>
+37:                             <li><%= link_to 'Home',{:controller => 'english_viewer', :action => 'index'} %></li>
+38: 			    <li><%= link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' %></li>
+39: 			    <li><%= link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  %></li>
+40: 			    <li><%= link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' %></li>
+41: 			    <li><%= link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' %></li>
+
+    app/views/layouts/english_viewer.html.erb:94:in `compile!'
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-08 19:56:00) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+ERROR: compiling _run_erb_app47views47layouts47english_viewer46html46erb RAISED compile error
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:38: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                            ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:39: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                              ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:40: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                           ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:41: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                     ^
+Function body:           def _run_erb_app47views47layouts47english_viewer46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n"
+@output_buffer.concat "       \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n"
+@output_buffer.concat "<head>\n"
+@output_buffer.concat "  <meta http-equiv=\"content-type\" content=\"text/html;charset=UTF-8\" />\n"
+@output_buffer.concat "  <title> Diela Information Systems </title>\n"
+@output_buffer.concat "  \n"
+@output_buffer.concat "  "; @output_buffer.concat(( stylesheet_link_tag 'BrightSide' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  \n"
+@output_buffer.concat "</head>\n"
+@output_buffer.concat "<body>\n"
+@output_buffer.concat "<!-- wrap starts here -->\n"
+@output_buffer.concat "<div id=\"wrap\">\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div id=\"header\">\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<h1 id=\"logo\">DIELA<span class=\"green\"> Information</span><span class=\"gray\"> Systems</span></h1>\t\n"
+@output_buffer.concat "\t\t<h2 id=\"slogan\">We will build your web application... </h2> </BR>\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<!-- Menu Tabs -->\n"
+@output_buffer.concat "\t\t<ul>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t</ul>\t\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t</div>\t\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t<!-- content-wrap starts here -->\n"
+@output_buffer.concat "\t<div id=\"content-wrap\">\t\t\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t<img src=\"/images/headerphoto.jpg\" width=\"820\" height=\"120\" alt=\"headerphoto\" class=\"no-border\" />\n"
+@output_buffer.concat "\t<div id='navbar'>\n"
+@output_buffer.concat "\t\t\t\t<ul>\n"
+@output_buffer.concat "                            <li>"; @output_buffer.concat(( link_to 'Home',{:controller => 'english_viewer', :action => 'index'} ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "                                </ul>\n"
+@output_buffer.concat "\t\t  <div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "        <div id=\"sidebar\" >\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t<p>&quot;Men are disturbed, not by the things that happen,\n"
+@output_buffer.concat "\t\t\tbut by their opinion of the things that happen.&quot;</p>\t\t\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t\t\t<p class=\"align-right\">- Epictetus</p>\t\t\t\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t</div>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<div id=\"main\">\t\n"
+@output_buffer.concat "\t\t\t\t<h1> Contact us on 27-788120189; (27) 118696428; dielainfos@gmail.com </h1>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t"; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t<!-- content-wrap ends here -->\t\t\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<!-- footer starts here -->\t\n"
+@output_buffer.concat "<div id=\"footer\">\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div class=\"footer-left\">\n"
+@output_buffer.concat "\t\t<p class=\"align-left\">\t\t\t\n"
+@output_buffer.concat "\t\t&copy; 2008 <strong>Diela Information Systems</strong> |\n"
+@output_buffer.concat "\t\tDesign by <a href=\"http://www.dielais.com/\">DielaIS</a> \n"
+@output_buffer.concat "\t\t</p>\t\t\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div class=\"footer-right\">\n"
+@output_buffer.concat "\t\t<p class=\"align-right\">\n"
+@output_buffer.concat "\t\t"; @output_buffer.concat(( link_to "home", {:controller => "viewer", :action => "index"}).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  \t\t</p>\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "<!-- footer ends here -->\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "<!-- wrap ends here -->\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</body>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/rails/dielais/app/views/layouts/english_viewer.html.erb:94:in `compile!'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:347:in `_render_with_layout'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:38: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                            ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:39: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                              ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:40: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                           ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:41: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                     ^) on line #38 of app/views/layouts/english_viewer.html.erb:
+35: 	<div id='navbar'>
+36: 				<ul>
+37:                             <li><%= link_to 'Home',{:controller => 'english_viewer', :action => 'index'} %></li>
+38: 			    <li><%= link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' %></li>
+39: 			    <li><%= link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  %></li>
+40: 			    <li><%= link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' %></li>
+41: 			    <li><%= link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' %></li>
+
+    app/views/layouts/english_viewer.html.erb:94:in `compile!'
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-08 19:56:04) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+ERROR: compiling _run_erb_app47views47layouts47english_viewer46html46erb RAISED compile error
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:38: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                            ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:39: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                              ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:40: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                           ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:41: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                     ^
+Function body:           def _run_erb_app47views47layouts47english_viewer46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n"
+@output_buffer.concat "       \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n"
+@output_buffer.concat "<head>\n"
+@output_buffer.concat "  <meta http-equiv=\"content-type\" content=\"text/html;charset=UTF-8\" />\n"
+@output_buffer.concat "  <title> Diela Information Systems </title>\n"
+@output_buffer.concat "  \n"
+@output_buffer.concat "  "; @output_buffer.concat(( stylesheet_link_tag 'BrightSide' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  \n"
+@output_buffer.concat "</head>\n"
+@output_buffer.concat "<body>\n"
+@output_buffer.concat "<!-- wrap starts here -->\n"
+@output_buffer.concat "<div id=\"wrap\">\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div id=\"header\">\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<h1 id=\"logo\">DIELA<span class=\"green\"> Information</span><span class=\"gray\"> Systems</span></h1>\t\n"
+@output_buffer.concat "\t\t<h2 id=\"slogan\">We will build your web application... </h2> </BR>\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<!-- Menu Tabs -->\n"
+@output_buffer.concat "\t\t<ul>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t</ul>\t\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t</div>\t\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t<!-- content-wrap starts here -->\n"
+@output_buffer.concat "\t<div id=\"content-wrap\">\t\t\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t<img src=\"/images/headerphoto.jpg\" width=\"820\" height=\"120\" alt=\"headerphoto\" class=\"no-border\" />\n"
+@output_buffer.concat "\t<div id='navbar'>\n"
+@output_buffer.concat "\t\t\t\t<ul>\n"
+@output_buffer.concat "                            <li>"; @output_buffer.concat(( link_to 'Home',{:controller => 'english_viewer', :action => 'index'} ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "                                </ul>\n"
+@output_buffer.concat "\t\t  <div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "        <div id=\"sidebar\" >\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t<p>&quot;Men are disturbed, not by the things that happen,\n"
+@output_buffer.concat "\t\t\tbut by their opinion of the things that happen.&quot;</p>\t\t\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t\t\t<p class=\"align-right\">- Epictetus</p>\t\t\t\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t</div>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<div id=\"main\">\t\n"
+@output_buffer.concat "\t\t\t\t<h1> Contact us on 27-788120189; (27) 118696428; dielainfos@gmail.com </h1>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t"; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t<!-- content-wrap ends here -->\t\t\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<!-- footer starts here -->\t\n"
+@output_buffer.concat "<div id=\"footer\">\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div class=\"footer-left\">\n"
+@output_buffer.concat "\t\t<p class=\"align-left\">\t\t\t\n"
+@output_buffer.concat "\t\t&copy; 2008 <strong>Diela Information Systems</strong> |\n"
+@output_buffer.concat "\t\tDesign by <a href=\"http://www.dielais.com/\">DielaIS</a> \n"
+@output_buffer.concat "\t\t</p>\t\t\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div class=\"footer-right\">\n"
+@output_buffer.concat "\t\t<p class=\"align-right\">\n"
+@output_buffer.concat "\t\t"; @output_buffer.concat(( link_to "home", {:controller => "viewer", :action => "index"}).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  \t\t</p>\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "<!-- footer ends here -->\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "<!-- wrap ends here -->\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</body>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/rails/dielais/app/views/layouts/english_viewer.html.erb:94:in `compile!'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:347:in `_render_with_layout'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:38: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                            ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:39: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                              ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:40: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                           ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:41: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                     ^) on line #38 of app/views/layouts/english_viewer.html.erb:
+35: 	<div id='navbar'>
+36: 				<ul>
+37:                             <li><%= link_to 'Home',{:controller => 'english_viewer', :action => 'index'} %></li>
+38: 			    <li><%= link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' %></li>
+39: 			    <li><%= link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  %></li>
+40: 			    <li><%= link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' %></li>
+41: 			    <li><%= link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' %></li>
+
+    app/views/layouts/english_viewer.html.erb:94:in `compile!'
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-08 19:57:03) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+ERROR: compiling _run_erb_app47views47layouts47english_viewer46html46erb RAISED compile error
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:38: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                            ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:39: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                              ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:40: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                           ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:41: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                     ^
+Function body:           def _run_erb_app47views47layouts47english_viewer46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n"
+@output_buffer.concat "       \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n"
+@output_buffer.concat "<head>\n"
+@output_buffer.concat "  <meta http-equiv=\"content-type\" content=\"text/html;charset=UTF-8\" />\n"
+@output_buffer.concat "  <title> Diela Information Systems </title>\n"
+@output_buffer.concat "  \n"
+@output_buffer.concat "  "; @output_buffer.concat(( stylesheet_link_tag 'BrightSide' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  \n"
+@output_buffer.concat "</head>\n"
+@output_buffer.concat "<body>\n"
+@output_buffer.concat "<!-- wrap starts here -->\n"
+@output_buffer.concat "<div id=\"wrap\">\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div id=\"header\">\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<h1 id=\"logo\">DIELA<span class=\"green\"> Information</span><span class=\"gray\"> Systems</span></h1>\t\n"
+@output_buffer.concat "\t\t<h2 id=\"slogan\">We will build your web application... </h2> </BR>\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<!-- Menu Tabs -->\n"
+@output_buffer.concat "\t\t<ul>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t</ul>\t\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t</div>\t\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t<!-- content-wrap starts here -->\n"
+@output_buffer.concat "\t<div id=\"content-wrap\">\t\t\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t<img src=\"/images/headerphoto.jpg\" width=\"820\" height=\"120\" alt=\"headerphoto\" class=\"no-border\" />\n"
+@output_buffer.concat "\t<div id='navbar'>\n"
+@output_buffer.concat "\t\t\t\t<ul>\n"
+@output_buffer.concat "                            <li>"; @output_buffer.concat(( link_to 'Home',{:controller => 'english_viewer', :action => 'index'} ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+@output_buffer.concat "                                </ul>\n"
+@output_buffer.concat "\t\t  <div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "        <div id=\"sidebar\" >\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t<p>&quot;Men are disturbed, not by the things that happen,\n"
+@output_buffer.concat "\t\t\tbut by their opinion of the things that happen.&quot;</p>\t\t\n"
+@output_buffer.concat "\t\t\t\t\n"
+@output_buffer.concat "\t\t\t<p class=\"align-right\">- Epictetus</p>\t\t\t\t\t\n"
+@output_buffer.concat "\t\t\n"
+@output_buffer.concat "\t\t</div>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t<div id=\"main\">\t\n"
+@output_buffer.concat "\t\t\t\t<h1> Contact us on 27-788120189; (27) 118696428; dielainfos@gmail.com </h1>\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t"; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t\t\t\t\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t\t\t\n"
+@output_buffer.concat "\t<!-- content-wrap ends here -->\t\t\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<!-- footer starts here -->\t\n"
+@output_buffer.concat "<div id=\"footer\">\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div class=\"footer-left\">\n"
+@output_buffer.concat "\t\t<p class=\"align-left\">\t\t\t\n"
+@output_buffer.concat "\t\t&copy; 2008 <strong>Diela Information Systems</strong> |\n"
+@output_buffer.concat "\t\tDesign by <a href=\"http://www.dielais.com/\">DielaIS</a> \n"
+@output_buffer.concat "\t\t</p>\t\t\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "\t<div class=\"footer-right\">\n"
+@output_buffer.concat "\t\t<p class=\"align-right\">\n"
+@output_buffer.concat "\t\t"; @output_buffer.concat(( link_to "home", {:controller => "viewer", :action => "index"}).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  \t\t</p>\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "<!-- footer ends here -->\n"
+@output_buffer.concat "\t\n"
+@output_buffer.concat "<!-- wrap ends here -->\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</body>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/rails/dielais/app/views/layouts/english_viewer.html.erb:94:in `compile!'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:347:in `_render_with_layout'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:38: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                            ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:39: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                              ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:40: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                           ^
+C:/rails/dielais/app/views/layouts/english_viewer.html.erb:41: syntax error, unexpected ')', expecting '}'
+@output_buffer.concat "\t\t\t    <li>"; @output_buffer.concat(( link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' ).to_s); @output_buffer.concat "</li>\n"
+                                                                                                                                     ^) on line #38 of app/views/layouts/english_viewer.html.erb:
+35: 	<div id='navbar'>
+36: 				<ul>
+37:                             <li><%= link_to 'Home',{:controller => 'english_viewer', :action => 'index'} %></li>
+38: 			    <li><%= link_to 'About us',{:controller => 'english_viewer', :action => 'about_us' %></li>
+39: 			    <li><%= link_to 'Services ',{:controller => 'english_viewer', :action => 'services'  %></li>
+40: 			    <li><%= link_to 'Contact', {:controller => 'english_viewer', :action => 'contact' %></li>
+41: 			    <li><%= link_to 'Blog', {:controller => 'english_viewer', :action => 'blog' %></li>
+
+    app/views/layouts/english_viewer.html.erb:94:in `compile!'
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-08 19:59:21) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-08 19:59:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-08 20:00:14) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 62ms (View: 46, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-08 20:00:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-08 20:01:46) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-08 20:01:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-08 20:04:05) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-08 20:04:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-08 22:26:09) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-08 22:26:09) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (63.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-18 18:49:17) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 31ms (View: 31, DB: 63) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 18:49:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about_us (for 127.0.0.1 at 2010-10-18 18:49:32) [GET]
+
+ActionView::MissingTemplate (Missing template english_viewer/about_us.erb in view path app/views):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about_us (for 127.0.0.1 at 2010-10-18 18:50:20) [GET]
+
+ActionView::MissingTemplate (Missing template english_viewer/about_us.erb in view path app/views):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-18 18:50:59) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 18:50:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 18:51:03) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 18:51:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#services (for 127.0.0.1 at 2010-10-18 18:51:09) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/services
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/services]
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 18:51:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#contact (for 127.0.0.1 at 2010-10-18 18:51:16) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/contact
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/english_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 18:51:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-18 18:51:35) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 18:51:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#about_us (for 127.0.0.1 at 2010-10-18 18:51:45) [GET]
+
+ActionController::UnknownAction (No action responded to about_us. Actions: about, blog, contact, index, and services):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-18 18:52:43) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 18:52:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#about (for 127.0.0.1 at 2010-10-18 18:52:44) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/about
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 18:52:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#services (for 127.0.0.1 at 2010-10-18 18:52:48) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/services
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/french_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 18:52:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#contact (for 127.0.0.1 at 2010-10-18 18:52:50) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/contact
+Completed in 110ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 18:52:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-18 18:52:53) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 18:52:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 19:02:11) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:02:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 19:03:30) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:03:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 19:05:26) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:05:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 19:07:22) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:07:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 19:07:27) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:07:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 19:07:36) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:07:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 19:10:19) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:10:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 19:11:05) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:11:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 19:14:19) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:14:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-18 19:20:58) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:20:58) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#services (for 127.0.0.1 at 2010-10-18 19:21:00) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/services
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/french_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:21:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#about (for 127.0.0.1 at 2010-10-18 19:21:02) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/about
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:21:02) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-18 19:21:04) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:21:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#services (for 127.0.0.1 at 2010-10-18 19:21:05) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/services
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:21:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-18 19:21:14) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:21:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-18 19:27:00) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:27:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 19:27:07) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:27:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#services (for 127.0.0.1 at 2010-10-18 19:27:11) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/services
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/english_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:27:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#contact (for 127.0.0.1 at 2010-10-18 19:27:19) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/contact
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:27:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-18 19:27:25) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 141ms (View: 125, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:27:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#about (for 127.0.0.1 at 2010-10-18 19:27:31) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/about
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:27:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#services (for 127.0.0.1 at 2010-10-18 19:27:34) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/services
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:27:34) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#contact (for 127.0.0.1 at 2010-10-18 19:27:38) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/contact
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:27:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-18 19:27:42) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:27:42) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-18 19:28:20) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:28:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-18 19:29:26) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:29:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#services (for 127.0.0.1 at 2010-10-18 19:30:37) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/services
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/english_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:30:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#contact (for 127.0.0.1 at 2010-10-18 19:30:44) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/contact
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/english_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:30:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#blog (for 127.0.0.1 at 2010-10-18 19:30:46) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/blog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/blog]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:30:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#blog (for 127.0.0.1 at 2010-10-18 19:32:10) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/blog
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/english_viewer/blog]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:32:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-18 19:32:14) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:32:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-18 19:32:20) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:32:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#about (for 127.0.0.1 at 2010-10-18 19:32:22) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:32:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#services (for 127.0.0.1 at 2010-10-18 19:32:24) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/services
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:32:24) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#contact (for 127.0.0.1 at 2010-10-18 19:32:26) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/contact
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:32:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#blog (for 127.0.0.1 at 2010-10-18 19:32:32) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/blog
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/french_viewer/blog]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:32:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-18 19:32:34) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-18 19:32:34) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)

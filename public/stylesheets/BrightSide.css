@@ -189,7 +189,7 @@ form.searchform input.button {
 	font: bolder 4.1em 'Trebuchet MS', Arial, Sans-serif;
 	letter-spacing: -2px;
 	text-transform: lowercase;
-	top: 0; left: 5px;	
+	top: 0; left: 5px;
 }
 #header h2#slogan {
 	position: absolute;	 
@@ -211,7 +211,13 @@ form.searchform input.button {
 	padding: 0;
 	width: 50%;		
 }
+#text {
+    font-size: medium;
+    color: #000;
+    width: 100%;
+    text-align: justify
 
+}
 .post-footer {
 	background-color: #FAFAFA;
 	padding: 5px; margin: 20px 15px 0 15px;
@@ -359,3 +365,37 @@ form.searchform input.button {
 .clear { clear: both; }
 .green {	color: #9EC630; }
 .gray  {	color: #BFBFBF; }
+/* taken from learning rails */
+
+/* Navigation Bar */
+
+#navbar ul {
+    padding: 0;
+    margin: 0;
+    background-color: #999;
+    color: White;
+    float: left;
+    width: 100%;
+    list-style: none;
+    font-weight: bold;
+    font-size: 13px;
+    border-bottom: 2px solid #333;
+}
+#navbar ul li {
+    display: inline;
+    color: White;
+    float: left;
+    border-right: 1px solid #333;
+    font-family: arial, helvetica, sans-serif;
+}
+#navbar ul li a {
+    padding: 0.2em 0.7em;
+    background-color: #999;
+    color: White;
+    text-decoration: none;
+    float:left;
+}
+#navbar ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
