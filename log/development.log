@@ -15147,3 +15147,1578 @@ ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=
   C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (31.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-30 16:00:58) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 109ms (View: 109, DB: 31) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:00:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-30 16:01:09) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:01:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#services (for 127.0.0.1 at 2010-10-30 16:01:14) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/services
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/english_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:01:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#contact (for 127.0.0.1 at 2010-10-30 16:01:18) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/contact
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/english_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:01:18) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#blog (for 127.0.0.1 at 2010-10-30 16:01:22) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/blog
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/english_viewer/blog]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:01:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:01:23) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 79ms (View: 79, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:01:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:01:27) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:01:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#about (for 127.0.0.1 at 2010-10-30 16:01:28) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/about
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:01:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#services (for 127.0.0.1 at 2010-10-30 16:01:30) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/services
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/french_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:01:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#contact (for 127.0.0.1 at 2010-10-30 16:01:31) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/contact
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/french_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:01:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#blog (for 127.0.0.1 at 2010-10-30 16:01:32) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/blog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/blog]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:01:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-30 16:01:34) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:01:34) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:06:59) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:07:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:07:04) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:07:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#about (for 127.0.0.1 at 2010-10-30 16:07:07) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/about
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:07:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#services (for 127.0.0.1 at 2010-10-30 16:07:10) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/services
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:07:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#services (for 127.0.0.1 at 2010-10-30 16:07:20) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/services
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/french_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:07:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#contact (for 127.0.0.1 at 2010-10-30 16:07:22) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/contact
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:07:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#contact (for 127.0.0.1 at 2010-10-30 16:14:43) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/contact
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:14:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:15:06) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:15:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#about (for 127.0.0.1 at 2010-10-30 16:15:10) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/about
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/french_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:15:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#services (for 127.0.0.1 at 2010-10-30 16:15:12) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/services
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:15:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#contact (for 127.0.0.1 at 2010-10-30 16:15:14) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/contact
+Completed in 125ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:15:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-30 16:15:16) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:15:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#blog (for 127.0.0.1 at 2010-10-30 16:15:18) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/blog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/blog]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:15:18) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#contact (for 127.0.0.1 at 2010-10-30 16:15:20) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/contact
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/english_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:15:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#contact (for 127.0.0.1 at 2010-10-30 16:16:45) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/contact
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/english_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:16:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#contact (for 127.0.0.1 at 2010-10-30 16:17:41) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/contact
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/english_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:17:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#contact (for 127.0.0.1 at 2010-10-30 16:18:13) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/contact
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:18:13) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-30 16:18:20) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:18:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#about (for 127.0.0.1 at 2010-10-30 16:18:26) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/english_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:18:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#services (for 127.0.0.1 at 2010-10-30 16:18:29) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/services
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:18:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#contact (for 127.0.0.1 at 2010-10-30 16:18:31) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/contact
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/english_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:18:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#blog (for 127.0.0.1 at 2010-10-30 16:18:33) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/blog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/blog]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:18:34) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:18:35) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:18:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:19:26) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:19:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#about (for 127.0.0.1 at 2010-10-30 16:19:29) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/about]
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:19:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#services (for 127.0.0.1 at 2010-10-30 16:19:31) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/services
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:19:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#contact (for 127.0.0.1 at 2010-10-30 16:19:32) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/contact
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:19:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#blog (for 127.0.0.1 at 2010-10-30 16:19:34) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/blog
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/blog]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:19:34) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-30 16:19:35) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:19:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:20:26) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:20:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:23:38) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:23:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:23:45) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:23:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-30 16:23:48) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:23:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#contact (for 127.0.0.1 at 2010-10-30 16:24:08) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/contact
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/english_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:24:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#services (for 127.0.0.1 at 2010-10-30 16:24:49) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/services
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/english_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:24:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:25:31) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:25:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:33:05) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:33:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-30 16:34:11) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:34:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-30 16:36:28) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:36:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:36:36) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:36:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-30 16:36:38) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:36:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:36:40) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:36:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-30 16:37:14) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:37:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:37:16) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:37:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:37:55) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:37:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#about (for 127.0.0.1 at 2010-10-30 16:38:00) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/about
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/about]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:38:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#services (for 127.0.0.1 at 2010-10-30 16:38:02) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/services
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/french_viewer/services]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:38:02) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#contact (for 127.0.0.1 at 2010-10-30 16:38:04) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/contact
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer/contact]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:38:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#blog (for 127.0.0.1 at 2010-10-30 16:38:06) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/blog
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/french_viewer/blog]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:38:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing EnglishViewerController#index (for 127.0.0.1 at 2010-10-30 16:38:07) [GET]
+Rendering template within layouts/english_viewer
+Rendering english_viewer/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:38:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrenchViewerController#index (for 127.0.0.1 at 2010-10-30 16:38:44) [GET]
+Rendering template within layouts/french_viewer
+Rendering french_viewer/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/french_viewer]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-30 16:38:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg.gif" with {:method=>:get}):
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
